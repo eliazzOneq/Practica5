@@ -42,9 +42,9 @@ const password = ref('')
 const login = () => {
   // Login falso para práctica
   if (
-    email.value === 'deJesusGuerrer0@gmail.com'
+    email.value === 'elliaz0@gmail.com'
     &&
-    password.value === '123456789'
+    password.value === '123456'
   ) {
     localStorage.setItem('token', '123')
     router.push(
